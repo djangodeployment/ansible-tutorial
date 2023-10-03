@@ -84,8 +84,8 @@ Here is your assignment for tomorrow:
    .. code-block:: bash
 
       adduser --system --home=/var/opt/greeter \
-      --no-create-home --disabled-password --group \
-      --shell=/bin/bash greeter
+         --no-create-home --disabled-password --group \
+         --shell=/bin/bash greeter
 
  * Use the ansible ``user`` module. 
  * Ignore ``--disable-password`` and ``--group``, as this is the default
