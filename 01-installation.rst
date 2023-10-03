@@ -18,11 +18,15 @@ running Mac OS X or GNU/Linux or similar. If your laptop runs Windows,
 please read the section about Windows further below.
 
 Here is how to install Ansible on a virtualenv on a **Debian or Ubuntu**
-machine::
+machine:
+
+.. code-block:: bash
 
    apt install ansible
 
-If you prefer to install it with pip, here is a way::
+If you prefer to install it with pip, here is a way:
+
+.. code-block:: bash
 
    apt install python3-paramiko python3-jinja2 python3-yaml
    mkvirtualenv --python=/usr/bin/python3 --system-site-packages ansible-course
